@@ -1,0 +1,7 @@
+a = int(input())
+b = input()
+c = list(map(int, b))
+print(a*c[2])
+print(a*c[1])
+print(a*c[0])
+print(a*c[2] + a*c[1]*10 + a*c[0]*100)
